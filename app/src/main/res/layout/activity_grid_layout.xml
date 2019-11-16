@@ -10,6 +10,7 @@
         android:id="@+id/llOutput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#C2B9B9"
         android:orientation="horizontal">
 
         <EditText
@@ -19,6 +20,10 @@
             android:enabled="false"
             android:layout_weight="1"
             android:gravity="right"
+            android:textStyle="bold"
+            android:background="#062677"
+            android:textColor="#fff"
+            android:paddingBottom="80dp"
             android:textSize="45dp" />
 
     </LinearLayout>
@@ -33,7 +38,8 @@
         android:useDefaultMargins="false"
         android:orientation="horizontal"
         android:layout_weight="1"
-        android:layout_marginBottom="10dp">
+        android:background="#02061D"
+        android:layout_marginBottom="2dp">
 <!--        android:layout_width="wrap_content"-->
 <!--        android:layout_height="wrap_content"-->
 <!--        android:layout_gravity="center"-->
@@ -52,7 +58,19 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:textSize="45dp"
+            android:background="@android:drawable/button_onoff_indicator_off"
             android:text="C" />
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:textSize="45dp"
+                android:background="@android:drawable/ic_input_delete"
+
+                />
 
         <Button
             android:id="@+id/btnRemainder"
@@ -63,15 +81,7 @@
             android:textSize="45dp"
             android:text="%" />
 
-        <Button
-            android:id="@+id/btnBack"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="45dp"
-            android:hint="Esc"
-            />
+
 
         <Button
             android:id="@+id/btnDivision"
@@ -92,6 +102,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:textSize="45dp"
+            android:background="@android:drawable/presence_online"
             android:text="7" />
 
         <Button
@@ -101,6 +112,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:textSize="45dp"
+            android:background="@android:drawable/presence_online"
             android:text="8" />
 
         <Button
@@ -110,6 +122,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:textSize="45dp"
+            android:background="@android:drawable/presence_online"
             android:text="9" />
 
         <Button
@@ -130,6 +143,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:textSize="45dp"
+            android:background="@android:drawable/presence_online"
             android:text="4" />
 
         <Button
@@ -138,6 +152,7 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
+            android:background="@android:drawable/presence_online"
             android:textSize="45dp"
             android:text="5" />
 
@@ -147,6 +162,7 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
+            android:background="@android:drawable/presence_online"
             android:textSize="45dp"
             android:text="6" />
 
@@ -167,6 +183,7 @@
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
+            android:background="@android:drawable/presence_online"
             android:textSize="45dp"
             android:text="1" />
 
@@ -176,6 +193,7 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
+            android:background="@android:drawable/presence_online"
             android:textSize="45dp"
             android:text="2" />
 
@@ -185,6 +203,7 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
+            android:background="@android:drawable/presence_online"
             android:textSize="45dp"
             android:text="3" />
 
@@ -195,7 +214,9 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:textSize="50dp"
-            android:text="+" />
+         android:text="+"
+
+            />
 
         <!-- Fifth Row -->
         <Button
@@ -206,6 +227,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:textSize="45dp"
+            android:background="@android:drawable/presence_online"
             android:text="00" />
 
         <Button
@@ -215,6 +237,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:textSize="45dp"
+            android:background="@android:drawable/presence_online"
             android:text="0" />
 
         <Button
@@ -233,6 +256,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:textSize="50dp"
+            android:background="@android:drawable/screen_background_light_transparent"
             android:text="=" />
 
     </GridLayout>

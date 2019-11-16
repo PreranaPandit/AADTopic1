@@ -131,9 +131,12 @@ public class GridLayoutActivity extends AppCompatActivity implements View.OnClic
             case R.id.btnRemainder:
                 this.operations.append("%");
                 break;
+            case R.id.btnDecimal:
+                this.operations.append(".");
+                break;
             case R.id.btnEqual:
                 if (this.operations.toString().contains(".")) {
-                    this.etOutput.setError("Cannot evaluate floating point numbers!!!");
+                    this.etOutput.setError("Cannot calculate decimal values!!!");
                     return;
                 }
 
