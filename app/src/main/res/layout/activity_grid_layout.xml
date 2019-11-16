@@ -18,9 +18,8 @@
             android:layout_height="wrap_content"
             android:enabled="false"
             android:layout_weight="1"
-            android:text="0"
             android:gravity="right"
-            android:textSize="80dp" />
+            android:textSize="45dp" />
 
     </LinearLayout>
 
